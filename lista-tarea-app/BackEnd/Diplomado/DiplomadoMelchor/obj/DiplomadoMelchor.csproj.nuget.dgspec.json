@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Javier Ibarra\\Documents\\GitHub\\Diplomado-Base\\lista-tareas-app\\BackEnd\\DiplomadoMelchor\\DiplomadoMelchor\\DiplomadoMelchor.csproj": {}
+    "C:\\Users\\ACER\\Documents\\GitHub\\Diplomado\\lista-tarea-app\\BackEnd\\Diplomado\\DiplomadoMelchor\\DiplomadoMelchor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Javier Ibarra\\Documents\\GitHub\\Diplomado-Base\\lista-tareas-app\\BackEnd\\DiplomadoMelchor\\DiplomadoMelchor\\DiplomadoMelchor.csproj": {
+    "C:\\Users\\ACER\\Documents\\GitHub\\Diplomado\\lista-tarea-app\\BackEnd\\Diplomado\\DiplomadoMelchor\\DiplomadoMelchor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Javier Ibarra\\Documents\\GitHub\\Diplomado-Base\\lista-tareas-app\\BackEnd\\DiplomadoMelchor\\DiplomadoMelchor\\DiplomadoMelchor.csproj",
+        "projectUniqueName": "C:\\Users\\ACER\\Documents\\GitHub\\Diplomado\\lista-tarea-app\\BackEnd\\Diplomado\\DiplomadoMelchor\\DiplomadoMelchor.csproj",
         "projectName": "DiplomadoMelchor",
-        "projectPath": "C:\\Users\\Javier Ibarra\\Documents\\GitHub\\Diplomado-Base\\lista-tareas-app\\BackEnd\\DiplomadoMelchor\\DiplomadoMelchor\\DiplomadoMelchor.csproj",
-        "packagesPath": "C:\\Users\\Javier Ibarra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Javier Ibarra\\Documents\\GitHub\\Diplomado-Base\\lista-tareas-app\\BackEnd\\DiplomadoMelchor\\DiplomadoMelchor\\obj\\",
+        "projectPath": "C:\\Users\\ACER\\Documents\\GitHub\\Diplomado\\lista-tarea-app\\BackEnd\\Diplomado\\DiplomadoMelchor\\DiplomadoMelchor.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ACER\\Documents\\GitHub\\Diplomado\\lista-tarea-app\\BackEnd\\Diplomado\\DiplomadoMelchor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Javier Ibarra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,11 +25,13 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
+            "framework": "net6.0",
             "targetAlias": "net6.0",
             "projectReferences": {}
           }
@@ -44,10 +46,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net6.0": {
+          "framework": "net6.0",
           "targetAlias": "net6.0",
           "dependencies": {
             "AutoMapper": {
@@ -94,6 +97,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -102,7 +123,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
